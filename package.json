@@ -1,0 +1,21 @@
+{
+  "name": "loftschool-nodejs",
+  "version": "1.0.0",
+  "description": "homeworks",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeybarbolin/loftschool-nodejs.git"
+  },
+  "author": "Sergey Barbolin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeybarbolin/loftschool-nodejs/issues"
+  },
+  "homepage": "https://github.com/sergeybarbolin/loftschool-nodejs#readme",
+  "dependencies": {
+    "eslint-config-standard": "^14.1.0"
+  }
+}
