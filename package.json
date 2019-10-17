@@ -16,6 +16,8 @@
   },
   "homepage": "https://github.com/sergeybarbolin/loftschool-nodejs#readme",
   "dependencies": {
-    "eslint-config-standard": "^14.1.0"
+    "dotenv": "^8.2.0",
+    "eslint-config-standard": "^14.1.0",
+    "moment": "^2.24.0"
   }
 }
