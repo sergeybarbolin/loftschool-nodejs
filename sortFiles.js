@@ -31,9 +31,9 @@ const readDir = (base, level) => {
               console.log(err.code);
               return;
             }
-            fs.link(localBase, newPathFile, err => {
+            fs.copyFile(localBase, newPathFile, err => {
               if (err) {
-                console.error(`Файл ${newPathFile} уже существует.`);
+                console.error(err.message);
                 return;
               }
     
