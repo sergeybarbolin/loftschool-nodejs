@@ -15,7 +15,7 @@ const readDir = (base, level) => {
           readDir(localBase, level + 1);
         } else {
           const folderName = path.join(newDir, item[0].toUpperCase());
-          const newPathFile = path.join(newDir, item[0].toUpperCase(), item);
+          const newPathFile = path.join(folderName, item);
           
           await fs.mkdir(folderName).catch(err => err.message);
 
